@@ -13,7 +13,7 @@ pipeline {
 
     environment {
         // 본인의 username으로 하실 분은 수정해주세요.
-        DOCKERHUB_USERNAME = 'devjw' #이 부분만 내 username으로 변경해주었다
+        DOCKERHUB_USERNAME = 'devjw' //이 부분만 내 username으로 변경해주었다
         GITHUB_URL = 'https://github.com/k8s-1pro/kubernetes-anotherclass-sprint2.git'
 
         // [2] 잦은 배포 - versioning 무의미, 계획된 배포 - versioning 필수
